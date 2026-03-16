@@ -22,7 +22,7 @@ button, a {
 /* Button hover effects */
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(120, 53, 15, 0.15);
+  box-shadow: 0 10px 20px rgba(220, 38, 38, 0.15);
 }
 
 /* Navigation styling */
@@ -40,12 +40,12 @@ nav {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #b45309;
+  background: #dc2626;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #92400e;
+  background: #b91c1c;
 }
 
 /* Hero section enhancements */
