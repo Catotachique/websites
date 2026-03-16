@@ -9,28 +9,28 @@ function App() {
     <div className="font-sans">
 
       {/* NAVIGATION */}
-      <nav className="fixed top-0 w-full bg-black/80 backdrop-blur-sm z-50 flex items-center justify-between px-6 py-4">
+      <nav className="fixed top-0 w-full bg-white shadow-md z-50 flex items-center justify-between px-6 py-4">
         <h1 className="text-2xl font-bold text-red-600">Cascada</h1>
-        <div className="hidden md:flex gap-6 text-white">
-          <a href="#services" className="hover:text-red-500 transition">Services</a>
-          <a href="#about" className="hover:text-red-500 transition">About</a>
-          <a href="#testimonials" className="hover:text-red-500 transition">Reviews</a>
-          <a href="#contact" className="hover:text-red-500 transition">Contact</a>
-          <a href="https://www.facebook.com/mmcascada" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">Facebook</a>
+        <div className="hidden md:flex gap-6 text-black">
+          <a href="#services" className="hover:text-red-600 transition">Services</a>
+          <a href="#about" className="hover:text-red-600 transition">About</a>
+          <a href="#testimonials" className="hover:text-red-600 transition">Reviews</a>
+          <a href="#contact" className="hover:text-red-600 transition">Contact</a>
+          <a href="https://www.facebook.com/mmcascada" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition">Facebook</a>
         </div>
         <button
-          className="md:hidden text-white text-2xl"
+          className="md:hidden text-black text-2xl"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           ☰
         </button>
         {mobileMenuOpen && (
-          <div className="absolute top-16 right-0 bg-black w-48 text-white flex flex-col gap-4 p-6 rounded-bl-lg">
-            <a href="#services" className="hover:text-red-500">Services</a>
-            <a href="#about" className="hover:text-red-500">About</a>
-            <a href="#testimonials" className="hover:text-red-500">Reviews</a>
-            <a href="#contact" className="hover:text-red-500">Contact</a>
-            <a href="https://www.facebook.com/mmcascada" target="_blank" rel="noopener noreferrer" className="hover:text-red-500">Facebook</a>
+          <div className="absolute top-16 right-0 bg-white shadow-lg w-48 text-black flex flex-col gap-4 p-6 rounded-bl-lg">
+            <a href="#services" className="hover:text-red-600">Services</a>
+            <a href="#about" className="hover:text-red-600">About</a>
+            <a href="#testimonials" className="hover:text-red-600">Reviews</a>
+            <a href="#contact" className="hover:text-red-600">Contact</a>
+            <a href="https://www.facebook.com/mmcascada" target="_blank" rel="noopener noreferrer" className="hover:text-red-600">Facebook</a>
           </div>
         )}
       </nav>
