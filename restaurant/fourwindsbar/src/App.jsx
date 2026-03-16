@@ -49,7 +49,7 @@ function App() {
         {/* Content */}
         <div className="relative z-10 text-white max-w-4xl mt-20">
           <p className="text-amber-300 font-heading text-lg mb-2 tracking-widest">WELCOME TO CHARLEVILLE'S FINEST</p>
-          <h1 className="font-heading text-7xl font-bold mb-2 tracking-tight leading-tight">Four Winds Pub & Kitchen</h1>
+          <h1 className="font-heading text-7xl font-bold mb-2 tracking-tight leading-tight">The Four Winds Pub & Kitchen</h1>
           <div className="h-1 w-24 bg-gradient-to-r from-amber-400 to-amber-600 mx-auto mb-6"></div>
           <p className="text-xl font-body mb-10 leading-relaxed opacity-95">
             Authentic Irish hospitality in the heart of Charleville, Cork. Order a pint, enjoy craft cuisine, and experience true pub culture.
