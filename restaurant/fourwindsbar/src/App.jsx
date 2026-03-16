@@ -11,7 +11,7 @@ function App() {
       {/* NAVIGATION */}
       <nav className="fixed w-full top-0 z-50 bg-gradient-to-r from-amber-900 to-amber-800 text-white shadow-lg">
         <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-          <div className="font-heading text-2xl font-bold">🍺 Four Winds</div>
+          <div className="font-heading text-2xl font-bold">🍺 The Four Winds</div>
           <div className="hidden md:flex gap-8">
             <a href="#about" className="hover:text-amber-200 transition-colors">About</a>
             <a href="#menu" className="hover:text-amber-200 transition-colors">Menu</a>
