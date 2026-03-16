@@ -18,7 +18,7 @@ function App() {
 
         {/* Content */}
         <div className="relative z-10 text-white max-w-3xl">
-          <h1 className="font-heading text-6xl font-bold mb-6 tracking-tight">Four Winds Pub & Kitchen</h1>
+          <h1 className="font-heading text-6xl font-bold mb-6 tracking-tight">The Four Winds Pub & Kitchen</h1>
           <p className="text-lg font-body mb-8 leading-relaxed opacity-95">
             A welcoming pub and kitchen in the heart of Charleville, Cork. Enjoy great food, quality beer, and a warm atmosphere.
           </p>
