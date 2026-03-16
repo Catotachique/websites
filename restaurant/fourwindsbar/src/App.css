@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional styling */
+body {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.5px;
+}
+
+/* Smooth transitions for interactive elements */
+button, a {
+  transition: all 0.3s ease;
+}
+
+/* Button hover effects */
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
